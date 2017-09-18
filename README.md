@@ -1,4 +1,4 @@
-# ReactNews
+# React News | React 驱动的新闻平台
 
 ES6+Webpack+Fetch
 
