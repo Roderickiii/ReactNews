@@ -1,0 +1,174 @@
+* {
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.logo span {
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.footer {
+    text-align: center;
+}
+
+#register {
+    line-height: 48px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.leftContainer {
+    float: left;
+    width: 400px;
+}
+
+.carousel {
+    width: 400px;
+    float: left;
+}
+
+.carousel img {
+    width: 400px;
+}
+
+.imageblock {
+    float: left;
+    margin-right: 4px;
+}
+
+.tabs_news {
+    padding-left: 10px;
+    width: 40%;
+    float: left;
+}
+
+.tabs_product {
+    float: left;
+    width: 29%;
+    padding-left: 10px;
+}
+
+.tabs_product .productlinks a {
+    color: #888;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.tabs_product .productlinks strong {
+    width: 100%;
+    display: block;
+    border-left: 2px solid #2db7f5;
+    margin-bottom: 4px;
+}
+
+.tabs_product .productlinks .productlinks-item {
+    padding-bottom: 16px;
+}
+
+.tabs_product .productlinks .productlinks-item > a {
+    padding-left: 10px;
+}
+
+.tabs_product .productlinks .area-sub {
+    padding-left: 20px;
+}
+
+.tabs_news li {
+    line-height: 22px;
+    font-size: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tabs_news li a {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.clr {
+    clear: both;
+}
+
+.articleContainer img {
+    width: 450px;
+    padding: 10px;
+}
+
+.articleContainer p {
+    font-size: 14px;
+}
+
+.articleContainer figure {
+    width: auto;
+}
+
+.articleContainer .article-src-time {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.articleContainer .article-title {
+    font-weight: bolder;
+}
+
+.comment .ant-card {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.comment .ant-form{
+    margin-right: 10px;
+}
+.comment hr{
+    margin: 10px 10px 0 0;
+}
+.footer{
+    padding: 10px 0;
+    border-top: 1px solid rgba(0,0,0,0.4);
+    margin-top: 20px;
+}
+@media (max-width: 1224px) {
+    .articleContainer img {
+        width: 100%;
+    }
+
+    .articleContainer .title {
+        font-size: 1.5em;
+        padding: 0;
+    }
+
+    .comment .ant-form {
+        margin: 0 10px;
+    }
+    .comment .ant-form .ant-row{
+        margin-bottom: 10px;
+    }
+    .comment .ant-card,.comment hr{
+        margin: 10px 10px 0;
+    }
+    .carousel {
+        width: 95%;
+        margin: 0 10px;
+    }
+
+    .carousel img {
+        width: 100%;
+    }
+}
