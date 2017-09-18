@@ -113,28 +113,25 @@ class PCHeader extends React.Component {
 						<Menu mode="horizontal" selectedKeys={[this.state.current]}
 						      onClick={this.handleClick.bind(this)}>
 							<Menu.Item key="top">
-								<Icon type="appstore"/>首页
+								<a href="/"><Icon type="appstore"/>首页</a>
 							</Menu.Item>
 							<Menu.Item key="yule">
-								<Icon type="appstore"/>社会
+								<a href="/"><Icon type="appstore"/>社会</a>
 							</Menu.Item>
 							<Menu.Item key="guoji">
-								<Icon type="appstore"/>国内
+								<a href="/"><Icon type="appstore"/>国内</a>
 							</Menu.Item>
 							<Menu.Item key="shehui">
-								<Icon type="appstore"/>国际
+								<a href="/"><Icon type="appstore"/>国际</a>
 							</Menu.Item>
 							<Menu.Item key="guonei">
-								<Icon type="appstore"/>娱乐
+								<a href="/"><Icon type="appstore"/>娱乐</a>
 							</Menu.Item>
 							<Menu.Item key="tiyu">
-								<Icon type="appstore"/>体育
+								<a href="/"><Icon type="appstore"/>体育</a>
 							</Menu.Item>
 							<Menu.Item key="shishang">
-								<Icon type="appstore"/>科技
-							</Menu.Item>
-							<Menu.Item key="keji">
-								<Icon type="appstore"/>时尚
+								<a href="/"><Icon type="appstore"/>科技</a>
 							</Menu.Item>
 						</Menu>
 						<Modal title="用户中心" wrapClassName="vertical-center-modal" visible={this.state.modalVisible}
